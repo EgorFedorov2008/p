@@ -12,8 +12,8 @@
 
     <textarea name="Text1" cols="40" rows="5"></textarea>
 <nav class="nav">
-  <a class="nav-link active" href="#">Active</a>
-  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link active" href="https://www.google.ru/search?newwindow=1&sxsrf=AB5stBgLPlh6U4d8uBL1jxrB2WzQ4XpLZw:1688636823193&q=коты&tbm=isch&sa=X&ved=2ahUKEwjI34Cw5vn_AhXJGxAIHdLcC-8Q0pQJegQIBxAB&biw=1920&bih=956&dpr=1">Active</a>
+  <a class="nav-link" href="https://www.google.ru/search?newwindow=1&sxsrf=AB5stBgLPlh6U4d8uBL1jxrB2WzQ4XpLZw:1688636823193&q=коты&tbm=isch&sa=X&ved=2ahUKEwjI34Cw5vn_AhXJGxAIHdLcC-8Q0pQJegQIBxAB&biw=1920&bih=956&dpr=1">Link</a>
         each $state, $value in $theme-colors {
           $alert-background: shift-color($value, $alert-bg-scale);
           $alert-border: shift-color($value, $alert-border-scale);
