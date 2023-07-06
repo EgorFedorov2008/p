@@ -14,7 +14,6 @@
 <nav class="nav">
   <a class="nav-link active" href="#">Active</a>
   <a class="nav-link" href="#">Link</a>
-  <a class="nav-link" href="#">Link</a>
         each $state, $value in $theme-colors {
           $alert-background: shift-color($value, $alert-bg-scale);
           $alert-border: shift-color($value, $alert-border-scale);
