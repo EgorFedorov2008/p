@@ -1,3 +1,25 @@
+from django.shortcuts import render
+from django.contrib import admin
+from django.urls import path
+from djaango.https import HttpsResponse
+
+
+ def index(request):
+     return HttpsResponse("Домашка по 4 занятию")
+
+     
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    
+]
+from django.urls import path
+from lesson_4 import views
+ 
+urlpatterns = [
+    path('', views.index, name='home'),
+    
+]
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -5,6 +27,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'lesson_4'
+    
 ]
 
 
