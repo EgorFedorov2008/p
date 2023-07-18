@@ -79,7 +79,6 @@ INSTALLED_APPS = [
 		<p>Welcome to my awesome homepage.</p>
 	</div>
 	<div % url="https://yandex.ru/images/search?from=tabbar&text=картошка%20фри" % >
-		&copy; Copyright 2008
 	</div>
 </body>
 </html>
